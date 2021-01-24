@@ -5,8 +5,31 @@
     { "id": 3, "title": "H3" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { 
+      "id": 1,
+      "image": "imageUrl",
+      "name": 'Marcia Lewis',
+      "comment": 'I was really struck by the Grand Yi character. I felt like she represented connection to the elders or something bigger, which Zo ultimately finds when he realizes there’s beauty everywhere. It reminded me a lot about my own grand parents and how they have affected me.',
+      "isLiked": false,
+      "numberOfSubComments": 4,
+      "subComments": [
+        {
+          id: '11',
+          image: userImage,
+          name: 'Xander Miller',
+          isLiked: true,
+          comment: 'That’s very insightful, and I completely agree. I love how you call out the need for loss to find appreciation. I wrote with that intent in mind. I love that this made you think about your own grand parents–how did that help you relate to Zo’s story differently?',
+        },
+        {
+          id: '12',
+          image: userImage,
+          name: 'Sean Nguyen',
+          isLiked: false,
+          comment: 'I had a similar thought @Marcia Lewis. The Zo character was really profound. I was thinking about how we cling to our own patterns for safety and security, but we have to leave that security behind to find something bigger. Kind of like that saying “to cross the ocean you must first sail away from land” or however it goes.',
+        },
+      ]
+    },
+   
   ],
   "profile": {
     "name": "typicode"
